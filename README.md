@@ -8,9 +8,10 @@ npm install -D tailwind-4-radix-colors
 ```
 
 ## Usage
-1. Import the CSS FILE:
+1. Import the CSS file:
 Add the generated @theme CSS file to the main CSS file of your project:
 ```css
+@import "tailwindcss";
 @import "tailwind-4-radix-colors/dist/theme.css";
 ```
 2. Use the Radix Colors using Tailwind syntax:
