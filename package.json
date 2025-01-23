@@ -1,0 +1,32 @@
+{
+  "name": "tailwind-4-radix-colors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/generateCSS.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "radix",
+    "tailwind",
+    "colors",
+    "css",
+    "theme",
+    "radix-colors",
+    "tailwind-css"
+  ],
+  "author": "Matt Modrowski",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmodrowski/tailwind-4-radix-colors.git"
+  },
+  "description": "A utility to integrate Radix UI colors into Tailwind CSS 4.0",
+  "bugs": {
+    "url": "https://github.com/mattmodrowski/tailwind-4-radix-colors/issues"
+  },
+  "homepage": "https://github.com/mattmodrowski/tailwind-4-radix-colors",
+  "dependencies": {
+    "@radix-ui/colors": "^3.0.0"
+  }
+}
